@@ -9,7 +9,7 @@ function applyTheme() {
     root.style.setProperty('--button-color', config.colors.buttonBackground);
     root.style.setProperty('--button-hover', config.colors.buttonHover);
     root.style.setProperty('--text-color', config.colors.textColor);
-    root.style.setProperty('--background-image', url('https://res.cloudinary.com/dzemrc6gj/image/upload/v1739453746/dxl7v76mnftpufyq9h1l.jpg');
+    root.style.setProperty('--background-image', url('https://res.cloudinary.com/dzemrc6gj/image/upload/v1739453746/dxl7v76mnftpufyq9h1l.jpg'));
 
     // Apply animation settings
     root.style.setProperty('--float-duration', config.animations.floatDuration);
