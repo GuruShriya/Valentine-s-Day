@@ -12,6 +12,11 @@
     --float-distance: 50px;
     --bounce-speed: 0.5s;
     --heart-explosion-size: 1.5;
+
+    /*Image */
+    --background-image: url('https://res.cloudinary.com/dzemrc6gj/image/upload/v1739453785/ff0ks5mipnpqlvjqdlnr.jpg');
+    --background-image-1: url ('https://res.cloudinary.com/dzemrc6gj/image/upload/v1739453746/dxl7v76mnftpufyq9h1l.jpg');
+    
 }
 
 body {
@@ -23,6 +28,14 @@ body {
     background: linear-gradient(135deg, var(--background-color-1), var(--background-color-2));
     font-family: Arial, sans-serif;
     overflow-x: hidden;
+
+    
+    background-image: var(--background-image);
+    background-image: var(--background-image-1);
+    background-size: cover;
+    background-position: center;
+    color: var(--text-color); /* Example of text color variable */
+    
 }
 
 .container {

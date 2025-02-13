@@ -30,6 +30,13 @@ function validateConfig() {
         warnings.push("Heart explosion size should be between 1 and 3! Using default.");
         config.animations.heartExplosionSize = 1.5;
     }
+     // Apply background image if set in config
+     if (config.backgroundImage) {
+        document.body.style.backgroundImage = config.backgroundImage;
+        document.body.style.backgroundSize = 'cover';  // Optional, to cover the whole screen
+        document.body.style.backgroundPosition = 'center';  // Optional, center the image
+    }
+
 
     // Log warnings if any
     if (warnings.length > 0) {
